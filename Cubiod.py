@@ -1,13 +1,11 @@
-  import StreamReader
+import StreamReader
 
 class Cubiod:
-    def __init__(self, width, length, height):
-        self.width = width
-        self.length = length
-        self.height = height
-    
-cube = Cubiod(1, 10, 1)
+    def __init__(self, w, l, h):
+        self.w = w
+        self.l = l
+        self.h = h
 
-print(cube.width)
-print(cube.length)
-print(cube.height)
+cube = Cubiod(StreamReader.width, StreamReader.length, StreamReader.height)
+    
+
