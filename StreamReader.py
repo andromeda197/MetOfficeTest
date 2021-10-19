@@ -1,6 +1,6 @@
 from os import close
 
-data = open("example1.txt", "r")
+data = open("example3.txt", "r")
 cuboidArray = []
 width = []
 length = []
